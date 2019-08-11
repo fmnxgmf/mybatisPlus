@@ -29,6 +29,6 @@ public class User {
     @TableField(value = "version",fill = FieldFill.INSERT_UPDATE,update = "%s+1")
     private String version;
     @TableField(value = "update_time",fill = FieldFill.INSERT_UPDATE,update = "now()")
-    private Date updateTime;
+    private String updateTime;
 
 }
