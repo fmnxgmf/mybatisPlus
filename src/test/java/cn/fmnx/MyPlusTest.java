@@ -54,11 +54,14 @@ public class MyPlusTest {
     //插入一条数据
     public void add(){
         User user = new User();
-        user.setAge(12);
-        user.setEmail("894697547@qq.com");
-        user.setName("陈智超");
+        user.setAge(13);
+        user.setEmail("8887547@qq.com");
+        user.setName("倒数第超");
+
         int insert = userMapper.insert(user);
         System.out.println(insert);
+
+
     }
     @Test
     public void update(){

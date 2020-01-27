@@ -26,7 +26,8 @@ public class User {
     private String name;
     private Integer age;
     private String  email;
-    @TableField(value = "version",fill = FieldFill.INSERT_UPDATE,update = "%s+1")
+    //@TableField(el = "66",value = "version",fill = FieldFill.INSERT_UPDATE,update = "%s+1")
+    @TableField(el = "66")
     private String version;
     @TableField(value = "update_time",fill = FieldFill.INSERT_UPDATE,update = "now()")
     private String updateTime;
